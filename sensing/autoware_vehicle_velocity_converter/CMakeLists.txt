@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 project(autoware_vehicle_velocity_converter)
 
 find_package(autoware_cmake REQUIRED)
-find_package(rclcpp_components REQUIRED)
+find_package(agnocast_components REQUIRED)
 autoware_package()
 
 ament_auto_add_library(${PROJECT_NAME} SHARED
